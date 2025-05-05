@@ -86,6 +86,26 @@
         <p><a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a></p>
       </div>
     </div>
+   <section id="consultation" class="consultation">
+  <div class="container">
+    <h2>Book a Free Consultation</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="_replyto" required />
+
+      <label for="topic">Consultation Topic:</label>
+      <input type="text" id="topic" name="topic" required />
+
+      <label for="message">Additional Details:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Submit Request</button>
+    </form>
+  </div>
+</section> 
   </footer>
 
   <script src="script.js"></script>
