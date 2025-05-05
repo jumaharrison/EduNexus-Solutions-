@@ -88,7 +88,8 @@
     </div>
    <section id="consultation" class="consultation">
   <div class="container">
-    <h2>Book a Free Consultation</h2>
+  </div>
+         <h2>Book a Free Consultation</h2>
     <form action="https://formspree.io/f/your-form-id" method="POST">
       <label for="name">Full Name:</label>
       <input type="text" id="name" name="name" required />
@@ -104,7 +105,6 @@
 
       <button type="submit">Submit Request</button>
     </form>
-  </div>
 </section> 
   </footer>
 
