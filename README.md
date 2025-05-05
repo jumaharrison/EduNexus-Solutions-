@@ -83,11 +83,12 @@
       </div>
       <div>
         <h3>Follow Us</h3>
-        <p>Social media icons here</p>
+        <p><a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a></p>
       </div>
     </div>
   </footer>
 
   <script src="script.js"></script>
 </body>
+</html>
 </html>
