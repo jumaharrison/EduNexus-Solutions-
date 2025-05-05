@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -27,7 +27,7 @@
   <section class="hero">
     <div class="hero-content">
       <h1>Empowering Research. Driving Innovation.</h1>
-      <button onclick="document.getElementById('consultation').scrollIntoView({ behavior: 'smooth' })">Get Free Consultation</button>
+      <button onclick="openForm()">Get Free Consultation</button>
     </div>
   </section>
 
@@ -37,10 +37,12 @@
       <h2>Our Services</h2>
       <div class="service-grid">
         <div class="service-card">
+          <img src="academic.jpg" alt="Academic Services" />
           <h3>Academic Services</h3>
           <p>Thesis help, data analysis, plagiarism checks, coaching, editing, and more.</p>
         </div>
         <div class="service-card">
+          <img src="software.jpg" alt="Software Solutions" />
           <h3>Software Solutions</h3>
           <p>LMS platforms, research tools, mobile apps, and academic software development.</p>
         </div>
@@ -83,11 +85,14 @@
       </div>
       <div>
         <h3>Follow Us</h3>
-        <a href="https://www.linkedin.com/feed/" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn" width="24"></a>
+        <a href="https://www.linkedin.com/feed/"><img src="linkedin-icon.png" alt="LinkedIn" width="32" /></a>
       </div>
     </div>
-    <section id="consultation" class="consultation">
-      <div class="container">
+
+    <!-- Consultation Form Modal -->
+    <div id="consultationModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeForm()">&times;</span>
         <h2>Book a Free Consultation</h2>
         <form action="https://formspree.io/f/your-form-id" method="POST">
           <label for="name">Full Name:</label>
@@ -105,7 +110,7 @@
           <button type="submit">Submit Request</button>
         </form>
       </div>
-    </section>
+    </div>
   </footer>
 
   <script src="script.js"></script>
